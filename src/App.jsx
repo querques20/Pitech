@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header';
-import { greetings } from './Utils/greetings';
+import greetings  from './Utils/greetings';
 import Count from './Components/counter';
 import TabTitle from './Components/tabTitle';
 
