@@ -1,10 +1,13 @@
 import { useState, useEffect } from "react";
 
 export default function TitleChanger() {
- const [title, setTitle] = useState("");
-    useEffect(() => {
+
+  const [title, setTitle] = useState("");
+
+  useEffect(() => {
     document.title = title;
   }, [title]);
+
   return (
     <div style={{ textAlign: "center", marginTop: "2rem 0" }}>
         <h2>escribir el titulo de la pagina</h2>
